@@ -21,7 +21,7 @@ const Main = () => {
       <Header event={event} setEvent={handleEvent} />
       <div className='main-content'>
         <div className='container'>
-          {/* <div className="bubbles" id="wrapper-canvas"></div> */} 
+          <div className="bubbles" id="wrapper-canvas"></div> 
           {/* UNCOMMMENT  */}
 
           <div className='text-container'>
