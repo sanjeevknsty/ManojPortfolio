@@ -252,7 +252,7 @@ useEffect(() => {
                             <TableBody className="">
                                 {skills.map((project, index) => (
                                     <TableRow key={index} className={`text-${index + 1}`}   ref={(el) => (rowRefs.current[index] = el)}>
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{project.name}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{project.name}</CustomTableCell>
                                     </TableRow>
                                 ))}
                             </TableBody>
@@ -260,56 +260,56 @@ useEffect(() => {
                         <Table className="semi-conductor">
                             <TableBody className="">
                                     <TableRow key={"1"} className={`text`}>
-                                        <CustomTableCell style={{fontSize:"3.5rem", backgroundColor:"#aaa",color:"black"}} >{"Programming :"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"2.5rem", backgroundColor:"#aaa",color:"black"}} >{"Programming :"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"1"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{" C, Embedded C, Data structures, Basic Python"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{" C, Embedded C, Data structures, Basic Python"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"2"} className={`text`}>
-                                        <CustomTableCell  style={{fontSize:"3.5rem",backgroundColor:"#aaa",color:"black"}}>{"Operating systems:"}</CustomTableCell>
+                                        <CustomTableCell  style={{fontSize:"2.5rem",backgroundColor:"#aaa",color:"black"}}>{"Operating systems:"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"2"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{" Linux, Zephyr RTOS"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{" Linux, Zephyr RTOS"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"3"} className={`text`}>
-                                        <CustomTableCell  style={{fontSize:"3.5rem",backgroundColor:"#aaa",color:"black"}}>{"Communication protocols:"}</CustomTableCell>
+                                        <CustomTableCell  style={{fontSize:"2.5rem",backgroundColor:"#aaa",color:"black"}}>{"Communication protocols:"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"3"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{" Bluetooth Low Energy(BLE), I2C, SPI, UART"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{" Bluetooth Low Energy(BLE), I2C, SPI, UART"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"4"} className={`text`}>
-                                        <CustomTableCell  style={{fontSize:"3.5rem",backgroundColor:"#aaa",color:"black"}} >{"OS Services:"}</CustomTableCell>
+                                        <CustomTableCell  style={{fontSize:"2.5rem",backgroundColor:"#aaa",color:"black"}} >{"OS Services:"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"4"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{" Bootloaders, State Machines, Device Firmware Upgrade"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{" Bootloaders, State Machines, Device Firmware Upgrade"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"4"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{"Shell, Memory management, Power management"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{"Shell, Memory management, Power management"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"5"} className={`text`}>
-                                        <CustomTableCell  style={{fontSize:"3.5rem",backgroundColor:"#aaa",color:"black"}} >{"Debugging and analyzing tools:"}</CustomTableCell>
+                                        <CustomTableCell  style={{fontSize:"2.5rem",backgroundColor:"#aaa",color:"black"}} >{"Debugging and analyzing tools:"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"5"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{" JTAG, JLINK, logical analyzers, Wireshark, GDB "}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{" JTAG, JLINK, logical analyzers, Wireshark, GDB "}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"5"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{"  Pinmux tool, Nrf Connect "}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{"  Pinmux tool, Nrf Connect "}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"6"} className={`text`}>
-                                        <CustomTableCell style={{fontSize:"3.5rem",backgroundColor:"#aaa",color:"black"}} >{"Kernel Services:"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"2.5rem",backgroundColor:"#aaa",color:"black"}} >{"Kernel Services:"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"6"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{"  Threads, Workqueues, Interrupts, Timers, Events"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{"  Threads, Workqueues, Interrupts, Timers, Events"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"6"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{" Synchronization primitives"}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{" Synchronization primitives"}</CustomTableCell>
                                     </TableRow>
                                     
                                     <TableRow key={"7"} className={`text`}>
-                                        <CustomTableCell  style={{fontSize:"3.5rem",backgroundColor:"#aaa",color:"black"}} >{"Build and CI/CD:"}</CustomTableCell>
+                                        <CustomTableCell  style={{fontSize:"2.5rem",backgroundColor:"#aaa",color:"black"}} >{"Build and CI/CD:"}</CustomTableCell>
                                     </TableRow>
                                     <TableRow key={"7"} className={`text`}  >
-                                        <CustomTableCell style={{fontSize:"2rem"}}>{"  West, CMake, GitHub, Gerrit, Jenkins, Jira "}</CustomTableCell>
+                                        <CustomTableCell style={{fontSize:"1.5rem"}}>{"  West, CMake, GitHub, Gerrit, Jenkins, Jira "}</CustomTableCell>
                                     </TableRow>
                             </TableBody>
                         </Table>
